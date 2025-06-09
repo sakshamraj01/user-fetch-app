@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#userContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.userCard {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+  width: 300px;
+}
+
+.userCard h3 {
+  margin: 0 0 10px;
+}
+
+#errorMsg {
+  color: red;
+  font-weight: bold;
+}
